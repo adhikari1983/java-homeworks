@@ -15,5 +15,10 @@ public class H2StringManipulation {
         for (int i = stringArray.length - 1; i >= 0; i--) {
             System.out.print(stringArray[i]);
         }
+
+        // or simply
+        for (int i = string.length()-1; i >=0 ; i--) {
+            System.out.print(string.charAt(i));
+        }
     }
 }

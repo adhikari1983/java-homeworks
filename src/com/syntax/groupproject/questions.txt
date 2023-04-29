@@ -28,7 +28,7 @@ Fibonacci series.
 
 8. Maximum and minimum number in the array?
 
-9. Write a java program to find the second largest
+9. Write a java program to find the second-largest
 number in the array?
 
 10. Write a program to print out duplicate elements from

@@ -5,7 +5,7 @@ package com.syntax.groupproject;
 
 public class T7FibonacciNumber {
     public static void main(String[] args) {
-        int numbers = 10, firstNum = 0, secondNum = 1, nextNumber = 0;
+        int numbers = 10, firstNum = 0, secondNum = 1, nextNumber;
 
         System.out.print(firstNum + " " + secondNum);
 

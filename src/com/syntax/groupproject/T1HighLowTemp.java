@@ -6,7 +6,7 @@ package com.syntax.groupproject;
 
 public class T1HighLowTemp {
     public static void main(String[] args) {
-        int[] tempOfWeek = {34, 30, 27, 25, 31, 24, 32};
+        int[] tempOfWeek = {34, 30, 55, 27, 25, 2, 31, 24, 32};
 
         int highestTemp = tempOfWeek[0];
         int lowestTemp = tempOfWeek[0];
@@ -14,7 +14,7 @@ public class T1HighLowTemp {
             if (temp > highestTemp) {
                 highestTemp = temp;
             }
-            if (temp < lowestTemp) {
+            else if (temp < lowestTemp) {
                 lowestTemp = temp;
             }
         }
