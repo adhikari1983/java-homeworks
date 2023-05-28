@@ -36,7 +36,7 @@ public class CardMain {
 
         // Using advanced for loop
         for (Card card : cardsList) {
-            if (card.getCardType().equalsIgnoreCase("visa platinum")) { // card object get modified, So work with newly set attributes
+            if (card.getCardType().equalsIgnoreCase("visa platinum")) { // card object get modified, So work with new attributes
                 System.out.println(card);
                 card.setInterestRate(0.666);
                 System.out.println("New interest rate is : " + card.getInterestRate());
