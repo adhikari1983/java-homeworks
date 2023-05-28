@@ -36,19 +36,19 @@ public class CardMain {
 
         // Using advanced for loop
         for (Card card : cardsList) {
-            if (card.getCardType().equalsIgnoreCase("visa")) {
+            if (card.getCardType().equalsIgnoreCase("visa platinum")) { // card object get modified, So work with newly set attributes
                 System.out.println(card);
                 card.setInterestRate(0.666);
                 System.out.println("New interest rate is : " + card.getInterestRate());
                 card.setCardType("visa standard");
                 System.out.println("New card type is : " + card.getCardType());
-            } else if (card.getCardType().equalsIgnoreCase("master")) {
+            } else if (card.getCardType().equalsIgnoreCase("master X")) {
                 System.out.println(card);
                 card.setInterestRate(0.777);
                 System.out.println("New interest rate is : " + card.getInterestRate());
                 card.setCardType("master Y");
                 System.out.println("New card type is : " + card.getCardType());
-            } else if (card.getCardType().equalsIgnoreCase("amex")) {
+            } else if (card.getCardType().equalsIgnoreCase("amex black")) {
                 System.out.println(card);
                 card.setInterestRate(0.888);
                 System.out.println("New interest rate is : " + card.getInterestRate());
@@ -61,19 +61,19 @@ public class CardMain {
         Iterator<Card> cardsIterator = cardsList.iterator();
         while (cardsIterator.hasNext()) {
             Card card1 = cardsIterator.next();
-            if (card1.getCardType().equalsIgnoreCase("visa")) {
+            if (card1.getCardType().equalsIgnoreCase("visa standard")) {
                 System.out.println(card1);
                 card1.setInterestRate(0.6666);
                 System.out.println("New interest rate is : " + card1.getInterestRate());
                 card1.setCardType("visa silver");
                 System.out.println("New card type is : " + card1.getCardType());
-            } else if (card1.getCardType().equalsIgnoreCase("master")) {
+            } else if (card1.getCardType().equalsIgnoreCase("master Y")) {
                 System.out.println(card1);
                 card1.setInterestRate(0.7777);
                 System.out.println("New interest rate is : " + card1.getInterestRate());
                 card1.setCardType("master Z");
                 System.out.println("New card type is : " + card1.getCardType());
-            } else if (card1.getCardType().equalsIgnoreCase("amex")) {
+            } else if (card1.getCardType().equalsIgnoreCase("amex white")) {
                 System.out.println(card1);
                 card1.setInterestRate(0.8888);
                 System.out.println("New interest rate is : " + card1.getInterestRate());

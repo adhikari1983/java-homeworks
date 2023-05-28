@@ -1,10 +1,8 @@
-/*
-    Create a Card class that will have interest rate field and card type
-    and a constructor that will initialize the fields.
-    Create 3 objects of different card and store them into LinkedList.
-    Using for loop/advanced for loop/ iterator access all methods of the class.
- */
+
 package com.syntax.homeworks.homework25.card;
+
+import java.util.Iterator;
+import java.util.LinkedList;
 
 public class Card {
     private double interestRate;
